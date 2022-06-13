@@ -1,11 +1,11 @@
 # Final_Project
-Selected Topic:
+- Selected Topic:
 Our selected topic entails using machine learning to predict future stock prices based on historical data. The machine learning model will take in stock data and will from the last three years and will output prediction prices of the S&P 500. Our dataset conatins the monthly stock price of the S&P 500 dating back to 1960.
 
-Reason we selected the topic:
+- Reason we selected the topic:
 We selected this topic due to our interest in the stock market and desire to create a machinelearning model that could potentially predict market trends based on previous performance data. 
 
-Description of the source of data:
+- Description of the source of data:
 The source data we are using is a csv conating the monthly price of the S&P 500 dating back to 1960.
 
 Questions we hope to answer with the data:

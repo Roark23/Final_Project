@@ -5,10 +5,10 @@
 ### Reason we selected the topic:
 - We selected this topic due to our interest in the stock market and desire to create a machinelearning model that could potentially predict market trends based on previous performance data. 
 
-- Description of the source of data:
-The source data we are using is a csv conating the monthly price of the S&P 500 dating back to 1960.
+### Description of the source of data:
+- The source data we are using is a csv conating the monthly price of the S&P 500 dating back to 1960.
 
-- Questions we hope to answer with the data:
-We hope to find out if it is possible to create a machine learning model that can accurately predict stock prices. Specifically, we want to find out if we can accurately predict the S&P 500 over a certain period of time. 
+### Questions we hope to answer with the data:
+- We hope to find out if it is possible to create a machine learning model that can accurately predict stock prices. Specifically, we want to find out if we can accurately predict the S&P 500 over a certain period of time. 
 
 - Another question we want to answer is if there is a relationship between historical trends and future stock performance.

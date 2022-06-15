@@ -1,4 +1,9 @@
-# Final_Project
+# Final_Project: Database
+
+## Tools
+1. Quick DBD - www.quickdatabasediagrams.com
+2. PostgresSql
+
 
 ## ERD
 -Starting the build of the database, we are using the same ERD program used in class, the Quick DBD, from www.quickdatabasediagrams.com.

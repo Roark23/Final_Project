@@ -12,3 +12,4 @@
 - We hope to find out if it is possible to create a machine learning model that can accurately predict stock prices. Specifically, we want to find out if we can accurately predict the S&P 500 over a certain period of time. 
 
 - Another question we want to answer is if there is a relationship between historical trends and future stock performance.
+

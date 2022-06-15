@@ -1,13 +1,9 @@
 # Final_Project
 
-## 20.1.3 First Segment Rubric
+## ERD
+-Starting the build of the database, we are using the same ERD program used in class, the Quick DBD, from www.quickdatabasediagrams.com.
+![image](https://user-images.githubusercontent.com/98435855/173713843-119cf9e4-d693-4494-9bd0-b017c9e35877.png)
 
-- Selected Topic: 
 
-- Reason they selected the topic:
-
-- Description of the source of data:
-
-- Questions they hope to answer with the data:
 
 

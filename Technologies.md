@@ -3,6 +3,16 @@
 
 # Technologies Used
 
+Git Hub
+
+Visual Studio Code
+
+SQL Database
+
+Kaggle
+
+Excel
+
 ## Data Cleaning and Analysis
 
 Data cleansing involves spotting and resolving potential data inconsistencies or errors to improve our data quality.

@@ -12,3 +12,18 @@
 - We hope to find out if it is possible to create a machine learning model that can accurately predict stock prices. Specifically, we want to find out if we can accurately predict the S&P 500 over a certain period of time. 
 
 - Another question we want to answer is if there is a relationship between historical trends and future stock performance.
+
+### Communication Protocls
+- Our group outlined some standard communication protocols. For any infromation relvant to the whole group, we deliberate through our group slack channel. If there is smiething specific between two members, then the members reach out to each other through slcak via direct message.
+
+### Outline
+- Introduction and Overview of S&P 500 and our selected stocks
+    - Basics of S&P 500
+    - Our hand picked stocks
+- Description of Analysis
+    - Daily price data pulled into database
+- Machine Learning Prediction
+    - Outline and perform two different ML models
+- Assess the accuracy of our predictions 
+- Takeaways and Conclusion
+

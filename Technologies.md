@@ -39,7 +39,14 @@ The machine learning aspect will take in stock data from the last three years of
 
 ## Dashboard
 
-A dashboard is a related group of interactive scorecard and report views that are organized together in a SharePoint or Web-hosted site.
+An Excel dashboard is a place where we are going to track all our important indicators, metrics, and data points
+using visuals and charts.
+
+This Dashboard will giveus a high-level view of how this 5 business are doing and help us make snap decisions based on data.
+
+Here we are presenting an Analytical Dashboard that will help us save time in the analysis and presentation of our data
+
+
 
 
 

@@ -27,4 +27,8 @@
 - Assess the accuracy of our predictions 
 - Takeaways and Conclusion
 
+### Presentation Slides
+- Here is the link to our Google Slides Presentation:
+https://docs.google.com/presentation/d/1LKO1Rd-QlpozrJrnYhYHzJuyGJvUBEsal7sHNvLBlyc/edit?usp=sharing
+
 ### Note all another descrptive information required for this deliverabe can be viewed in their respective markdowns (i.e Machine Learning description in the Nicole_ReadMe)

@@ -13,6 +13,7 @@
 
 - Another question we want to answer is if there is a relationship between historical trends and future stock performance.
 
+<<<<<<< HEAD:README.md
 ### Communication Protocls
 - Our group outlined some standard communication protocols. For any infromation relvant to the whole group, we deliberate through our group slack channel. If there is smiething specific between two members, then the members reach out to each other through slcak via direct message.
 
@@ -27,3 +28,5 @@
 - Assess the accuracy of our predictions 
 - Takeaways and Conclusion
 
+=======
+>>>>>>> 162b0136359bba9a0f1be20b46b6f2c409e7cf3d:Nicole_README.md

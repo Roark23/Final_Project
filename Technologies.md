@@ -3,19 +3,29 @@
 
 # Technologies Used
 
-Git Hub
+* Git Hub:
+   - Is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features 
 
-Visual Studio Code
+* Visual Studio Code:
+   - Is a source-code editor that we used with a variety of programming languages, including Python. It is based on the Electron framework,    which   is used to develop  Web applications that run on the Blink layout engine.
 
-Phyton 3
+* Kaggle:
+   - Is an online community of data scientists and machine learning practitioners. Kaggle allowed us to find our data sets for this project
 
-SQL Database
+* Phyton 3:
+   - functions are reusable, ordered chunk of code that performs the single, connected activity. Functions provide our program with more modularity and allow us to reuse a lot of code
 
-Kaggle
+* SQL Database:
+   - SQL, is short for Structured Query Language, is a database programming language for querying and editing information
 
-Tableau
+* Quick DBD - www.quickdatabasediagrams.com: 
+   - Starting the build of the database, we are using the same ERD program used in class, the Quick DBD
 
-Snipping Tool
+* Tableau:
+   - Is an American interactive data visualization software that we are using to present our DASHBOARD
+
+* Snipping Tool:
+   - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project
 
 ## Data Cleaning and Analysis
 
@@ -30,7 +40,7 @@ Pandas: will be used to clean the data and perform an exploratory analysis. Furt
 ## Database Storage
 
 Selecting the right data store for our requirements is a key design decision. Reason why we have decided to use
-SQL Database as an standard language for accessing and manipulating databases, which provides various benefits to our development, 
+PostgresSQL Database as an standard language for accessing and manipulating databases, which provides various benefits to our development, 
 such as saving time by automating routine tasks, locating and fixing errors, taking advantage of intelligent support from 
 the IDE, and increasing overall productivity.
 

@@ -1,17 +1,18 @@
 -- Creating tables for stock index
-CREATE TABLE stock_index (
+CREATE TABLE spstock (
      date DATE NOT NULL,
 	 opening FLOAT NOT NULL,
      high FLOAT NOT NULL,
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
 
-SELECT * FROM stock_index;
+--DROP TABLE spstock;
+SELECT * FROM spstock;
 
 -- Creating tables for apple
 CREATE TABLE apple (
@@ -21,7 +22,7 @@ CREATE TABLE apple (
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
@@ -34,7 +35,7 @@ CREATE TABLE kellogg (
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
@@ -47,7 +48,7 @@ CREATE TABLE nike (
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
@@ -60,7 +61,7 @@ CREATE TABLE chrobinson (
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
@@ -73,7 +74,7 @@ CREATE TABLE oxy (
      low FLOAT NOT NULL,
 	 closing FLOAT NOT NULL,
 	 adj_closing FLOAT NOT NULL,
-	 volume INT NOT NULL,
+	 volume DECIMAL NOT NULL,
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );

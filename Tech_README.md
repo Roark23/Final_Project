@@ -2,11 +2,16 @@
 
 # Overview
 
-A storyboard of our dashboard will be used to display our data findings.
- Our dataset conatins the monthly stock price of the S&P 500 dating back to 1960.
+A storyboard of our project will be used to display our data findings from our dataset that conatins the monthly stock price of the S&P 500 dating back to 1960.
+
 # Results
 
-Outline and begin work on a dashboard to house our final project.
+We have hand picked 5 companies
+   - Apple
+   - CH Robinson
+   - Kellog
+   - Nike
+   - Occidental Petroleum
 
 ## This tools are the best fit for Our project
 
@@ -36,4 +41,12 @@ Outline and begin work on a dashboard to house our final project.
 
 # Summary
 
-A blue print for the Dashboard has been created
+Here is presented a description of Tools and their functionality in this project to help our audience to better understand the application of them.
+Data where pulled from Pandas for a trail run of the Machine Learning Model.
+Plots have been created to present visualizations of the closing price for the selected companies, and distribution of the dataset as well.
+Data is splitted into Train and Test DataSet, 80% Training Data and 20% Testing Data.
+The Machine Learning Model will run a linear regression, ARIMA model, and a Facebook Prophet model.
+
+- limitations of these models will be that they do not take into account current world situations (like COVID impacts on economy)
+
+

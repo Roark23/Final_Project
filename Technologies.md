@@ -4,28 +4,32 @@
 # Technologies Used
 
 * Git Hub:
-   - Is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features 
+   - Is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features.
 
 * Visual Studio Code:
    - Is a source-code editor that we used with a variety of programming languages, including Python. It is based on the Electron framework,    which   is used to develop  Web applications that run on the Blink layout engine.
 
 * Kaggle:
-   - Is an online community of data scientists and machine learning practitioners. Kaggle allowed us to find our data sets for this project
+   - Is an online community of data scientists and machine learning practitioners. Kaggle allowed us to find our data sets for this project.
 
 * Phyton 3:
-   - functions are reusable, ordered chunk of code that performs the single, connected activity. Functions provide our program with more modularity and allow us to reuse a lot of code
+   - functions are reusable, ordered chunk of code that performs the single, connected activity. Functions provide our program with more modularity and allow us to reuse a lot of code.
 
 * SQL Database:
-   - SQL, is short for Structured Query Language, is a database programming language for querying and editing information
+   - SQL, is short for Structured Query Language, is a database programming language for querying and editing information.
 
 * Quick DBD - www.quickdatabasediagrams.com: 
-   - Starting the build of the database, we are using the same ERD program used in class, the Quick DBD
+   - Starting the build of the database, we are using the same ERD program used in class, the Quick DBD.
 
 * Tableau:
-   - Is an American interactive data visualization software that we are using to present our DASHBOARD
+   - Is an American interactive data visualization software that we are using to present our DASHBOARD.
+
+* Excel:
+   - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications
+
 
 * Snipping Tool:
-   - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project
+   - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project..
 
 ## Data Cleaning and Analysis
 
@@ -33,7 +37,7 @@ Data cleansing involves spotting and resolving potential data inconsistencies or
 In this process, we review, analyze, detect, modify, or remove “dirty” data to make our dataset “clean.” Data clensing 
 is also called data cleaning or data scrubbing.
 
-The way we check for unique values is to use the Pandas DataFrame's 
+The way we check for unique values is to use the Pandas DataFrame's .
 
 Pandas: will be used to clean the data and perform an exploratory analysis. Further analysis is completed using Python.
 
@@ -44,7 +48,7 @@ PostgresSQL Database as an standard language for accessing and manipulating data
 such as saving time by automating routine tasks, locating and fixing errors, taking advantage of intelligent support from 
 the IDE, and increasing overall productivity.
 
-yfinance: is used to download and display information on our selected stocks
+yfinance: is used to download and display information on our selected stocks.
 
 ## Machine Learning
 
@@ -52,15 +56,15 @@ Machine learning is a branch of artificial intelligence (AI) and computer scienc
 
 The machine learning aspect will take in stock data from the last three years of the dataset and will output prediction prices. The code will run two different forecasting models (ARIMA and Facebook Prophet) and will produce graphs displaying the predictions to compare each of the models.
 
-* import numpy as np: keeps our code more readable
+* import numpy as np: keeps our code more readable.
 
-* import pandas as pd: tells Phyton to bring the pandas data analysis library into our current environment
+* import pandas as pd: tells Phyton to bring the pandas data analysis library into our current environment.
 
 * import matplotlib.pyplot as plt: is importer into our namespace under the shorter name plt. The pyplot is where the plot () scatter(), and other commands live
 
-* from pandas.plotting import lag_plot: is a scatter plot for a time series and the same data lagged
+* from pandas.plotting import lag_plot: is a scatter plot for a time series and the same data lagged.
 
-* import datetime as dt: Return a string stating the day of the week corresponding to datetime dt
+* import datetime as dt: Return a string stating the day of the week corresponding to datetime dt .
 
 * from sklearn.linear_model import LinearRegression: Is one of the best statistical models that studies the relationship between a dependent variable (Y) with a given set of independent variables (X). The relationship is established with the help of fitting a best line. sklearn.linear_model.LinearRegression is the module used to implement linear regression.
 
@@ -77,12 +81,13 @@ The machine learning aspect will take in stock data from the last three years of
 
 ## Dashboard
 
-An Excel dashboard is a place where we are going to track all our important indicators, metrics, and data points
-using visuals and charts.
+Here we are presenting an Analytical Dashboard that will help us save time in the analysis and presentation of our data.
 
-This Dashboard will giveus a high-level view of how this 5 business are doing and help us make snap decisions based on data.
+An Excel file will be used and transformed from .csv to our dashboard, that will be presented on Tableau, is a place where we are going to track all our important indicators, metrics, and data points using visuals and charts.
 
-Here we are presenting an Analytical Dashboard that will help us save time in the analysis and presentation of our data
+This Dashboard will give us a high-level view of how this 5 business are doing and help us make snap decisions based on data.
+
+
 
 
 

@@ -14,6 +14,8 @@
 
 - Another question we want to answer is if there is a relationship between historical trends and future stock performance.
 
+### Second Segment Deliverable
+
 ### Communication Protocls
 - Our group outlined some standard communication protocols. For any infromation relvant to the whole group, we deliberate through our group slack channel. If there is smiething specific between two members, then the members reach out to each other through slcak via direct message.
 

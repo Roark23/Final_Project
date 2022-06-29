@@ -33,6 +33,9 @@ We have hand picked 5 companies
 * Quick DBD - www.quickdatabasediagrams.com: 
    - Starting the build of the database, we are using the same ERD program used in class, the Quick DBD
 
+* Excel:
+   - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications
+
 * Tableau:
    - Is an American interactive data visualization software that we are using to present our DASHBOARD
 

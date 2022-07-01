@@ -30,7 +30,7 @@
 * Excel:
    - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications.
 
-* JASON File:
+* JSON File:
    -  Is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.
 
 * index.html:
@@ -87,9 +87,9 @@ The machine learning aspect will take in stock data from the last three years of
 * from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error: Array-like value defines weights used to average errors. ‘raw_values’ : Returns a full set of errors in case of multioutput input. ‘uniform_average’ : Errors of all outputs are averaged with uniform weight.
 
 * from fbprophet import Prophet: is Facebook prophet which required requires a pandas DataFrame with two columns:
---
-- ds, for datestamp, is a datestamp column in a format expected by pandas.
-- y, a numeric column containing the measurement we wish to forecast.
+
+    - ds, for datestamp, is a datestamp column in a format expected by pandas.
+    - y, a numeric column containing the measurement we wish to forecast.
 
 * import pmdarima as pm: (originally pyramid-arima, for the anagram of 'py' + 'arima') is a statistical library designed to fill the void in Python's time series analysis capabilities. This includes: The equivalent of R's auto.arima functionality. A collection of statistical tests of stationarity and seasonality. Time series utilities, such as differencing and inverse differencing.
 
@@ -100,6 +100,8 @@ Here we are presenting an Analytical Dashboard that will help us save time in th
 An Excel file will be used and transformed from .csv to our dashboard, that will be presented on Tableau, is a place where we are going to track all our important indicators, metrics, and data points using visuals and charts.
 
 This Dashboard will give us a high-level view of how this 5 business are doing and help us make snap decisions based on data.
+
+Presented on a HTML
 
 
 

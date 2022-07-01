@@ -14,7 +14,7 @@ CREATE TABLE spstock (
 --DROP TABLE spstock;
 SELECT * FROM spstock;
 
--- Creating tables for apple
+-- Creating table for apple
 CREATE TABLE apple (
      date DATE NOT NULL,
 	 opening FLOAT NOT NULL,
@@ -26,7 +26,73 @@ CREATE TABLE apple (
 	 PRIMARY KEY (date),
      UNIQUE (date)
 );
+
+DROP TABLE apple;
 SELECT * FROM apple;
+
+--ALTER TABLE apple
+--DROP COLUMN high;
+
+-- Drop unneccesary columns and change title
+ALTER TABLE apple
+DROP COLUMN opening,
+DROP COLUMN high,
+DROP COLUMN low,
+DROP COLUMN adj_closing,
+DROP COLUMN volume;
+
+SELECT
+   date,	
+   closing AS aaple
+FROM aaple;   
+
+-- Creating tables for technology
+CREATE TABLE tech_sector (
+     date DATE NOT NULL,
+	 opening FLOAT NOT NULL,
+     high FLOAT NOT NULL,
+     low FLOAT NOT NULL,
+	 closing FLOAT NOT NULL,
+	 adj_closing FLOAT NOT NULL,
+	 volume DECIMAL NOT NULL,
+	 PRIMARY KEY (date),
+     UNIQUE (date)
+);
+
+SELECT * FROM tech_sector;
+DROP TABLE tech_sector;
+
+
+-- Drop unneccesary columns and change title
+ALTER TABLE tech_sector
+DROP COLUMN opening,
+DROP COLUMN high,
+DROP COLUMN low,
+DROP COLUMN adj_closing,
+DROP COLUMN volume;
+
+-- create new title
+SELECT
+   date,
+   closing AS tech_sector
+FROM tech_sector;   
+
+-- Join tech_sector and apple closing prices
+SELECT tech_sector.date,
+		tech_sector.closing,
+		apple.closing
+FROM tech_sector
+LEFT JOIN apple
+ON tech_sector.date = apple.date;
+
+
+
+
+
+
+DROP TABLE apple;
+SELECT * FROM tech_sector;
+
 
 -- Creating tables for kellogg
 CREATE TABLE kellogg (
@@ -126,7 +192,8 @@ SELECT * FROM energy_stocks;
 -- join conoco to exxon
 SELECT exxon.date,
 		exxon.opening,
-		exxon.volume
+		exxon.volume,
+		conoco.volume
 FROM exxon
 LEFT JOIN conoco
 ON exxon.date = conoco.date;

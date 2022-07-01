@@ -24,12 +24,26 @@
 * Tableau:
    - Is an American interactive data visualization software that we are using to present our DASHBOARD.
 
-* Excel:
-   - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications
-
-
 * Snipping Tool:
-   - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project..
+   - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project.
+
+* Excel:
+   - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications.
+
+* JASON File:
+   -  Is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.
+
+* index.html:
+   - As its name suggests index.html consists of two words index and html. The index simply means shortlist for multiple items. In web terminology generally used to showcase the website pages, categories or parts on a single page.
+
+* HTML: 
+   - Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+
+
+* Heroku:
+   - Is a Platform as a Service  (Paas) cloud offering that provisions the development of Web applications and services. It is a cloud application development platform that provides development tools, scalable processing power and cloud management functionality.
+
+---
 
 ## Data Cleaning and Analysis
 
@@ -73,7 +87,7 @@ The machine learning aspect will take in stock data from the last three years of
 * from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error: Array-like value defines weights used to average errors. ‘raw_values’ : Returns a full set of errors in case of multioutput input. ‘uniform_average’ : Errors of all outputs are averaged with uniform weight.
 
 * from fbprophet import Prophet: is Facebook prophet which required requires a pandas DataFrame with two columns:
----
+--
 - ds, for datestamp, is a datestamp column in a format expected by pandas.
 - y, a numeric column containing the measurement we wish to forecast.
 

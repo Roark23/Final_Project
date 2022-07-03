@@ -39,7 +39,6 @@
 * HTML: 
    - Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
 
-
 * Heroku:
    - Is a Platform as a Service  (Paas) cloud offering that provisions the development of Web applications and services. It is a cloud application development platform that provides development tools, scalable processing power and cloud management functionality.
 
@@ -63,6 +62,21 @@ such as saving time by automating routine tasks, locating and fixing errors, tak
 the IDE, and increasing overall productivity.
 
 yfinance: is used to download and display information on our selected stocks.
+
+-- creating tables for stock index
+CREATE TABLE spstock (
+    date DATE NOT NULL,
+    opening FLOAT NOT NULL,
+    low FLOAT NOT NULL,
+    cloasing FLOAT NOT NULL,
+    adj_closing FLOAT NOT NULL,
+    volume DECIMAL NOT NULL,
+    PRIMARY KEY (date),
+    UNIQUE (date)
+);
+
+-- DROP TABLE spstock;
+SELECT * FROM spstock;
 
 ## Machine Learning
 
@@ -97,11 +111,13 @@ The machine learning aspect will take in stock data from the last three years of
 
 Here we are presenting an Analytical Dashboard that will help us save time in the analysis and presentation of our data.
 
-An Excel file will be used and transformed from .csv to our dashboard, that will be presented on Tableau, is a place where we are going to track all our important indicators, metrics, and data points using visuals and charts.
+This Dashboard will give us a high-level view of how this business are doing and help us make snap decisions based on data.
 
-This Dashboard will give us a high-level view of how this 5 business are doing and help us make snap decisions based on data.
+An Excel file will be used and transformed from .csv, we are going to track all our important indicators, metrics, and data points using visuals and charts.
 
-Presented on a HTML
+To be presented.
+
+
 
 
 

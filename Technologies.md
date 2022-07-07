@@ -27,6 +27,9 @@
 * Snipping Tool:
    - Is a screenshot utility included in windows Vista and later versions that can take screenshots in a variety of ways, which we use to create the storyboard for this project.
 
+* Jupyter Notebook:
+   - Jupyter Notebook (formerly IPython Notebooks) is a web-based interactive computational environment for creating notebook documents.A Jupyter Notebook document is a browser-based REPL containing an ordered list of input/output cells which can contain code, text (using Markdown), mathematics, plots and rich media. Jupyter Notebook can connect to many kernels to allow programming in different languages. A Jupyter kernel is a program responsible for handling various types of requests (code execution, code completions, inspection), and providing a reply.
+
 * Excel:
    - Is a spreadsheet program from Microsoft and a component of its Office product group for business applications.
 

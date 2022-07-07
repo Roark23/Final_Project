@@ -19,7 +19,7 @@ Final Project Speaker Notes
 
 # ROARK
 Topic:
-- Our selected topic entails using machine learning to predict future stock prices based on historical data. The machine learning model will take in stock data and will from the last three years and will output prediction prices of the S&P 500. Our dataset conatins the monthly stock price of the S&P 500 from the start of 2019.
+- Our selected topic entails using machine learning to predict future stock prices based on historical data. The machine learning model will take in stock data and will from the last three years and will output prediction prices of the S&P 500. Our dataset contains the monthly stock price of the S&P 500 from the start of 2019 along with 5 individual stocks and their respective sectors. Various machine learning models will analyze these relationships to better understand and predict stock performance.
 
 Reason we selected the topic:
 - We selected this topic due to our interest in the stock market and desire to create a machine learning model that could potentially predict market trends based on previous performance data. 
@@ -190,6 +190,14 @@ World Wide Web pages.
 
 # NICOLE
 - Analysis Phase and Results
+Linear Regression
+The purpose of viewing the linear regression model was to see how closely correlated each company’s stock or industry was related to the S&P (i.e. if the S&P increased would the company or industry also increase).
+
+Arima Model
+ARIMA: Autoregressive Integrated Moving Average. This is a statistical model that attempts to use past observations of the target variable to forecast its future values. Some limitations to the ARIMA model is that it has difficulty predicting turning points, it struggles with seasonality, and it performs well on short term forecasts but has poorer performance long term. This model was the second best and did a good job predicting an estimated average of where the stock prices would go. This model did not perform as well when it comes to seasonality/trend.
+
+Facebook Prophet Model
+The Facebook Prophet model is an additive regression model (like the ARIMA) but it includes growth trend and seasonal components. Some limitations of the Prophet model are it has a tendency to overfit the data, and it requires data to be in a specific format. Overall this model performed the best and was more accurate in terms on seasonality and trend. 
 
 ### Link to our Website
 

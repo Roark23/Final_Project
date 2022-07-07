@@ -1,13 +1,15 @@
 # Final_Project
 
 ### Selected Topic:
-- Our selected topic entails using machine learning to predict future stock prices based on historical data. The machine learning model will take in stock data and will from the last three years and will output prediction prices of the S&P 500. Our dataset conatins the monthly stock price of the S&P 500 dating back to 1960.
+- Our selected topic entails using machine learning to predict future stock prices based on historical data. The machine learning model will take in stock data and will from the last three years and will output prediction prices of the S&P 500. Our dataset conatins the monthly stock price of the S&P 500 from the start of 2019.
 
 ### Reason we selected the topic:
 - We selected this topic due to our interest in the stock market and desire to create a machine learning model that could potentially predict market trends based on previous performance data. 
 
 - We wanted to predict something relevant to the our economy. After analyzing various data sets, we decided we wanted to better understand the S&P 500. We each picked an individual sector with a stock in the   S&P 500 of interest to learn more about.
 
+### Background Info on S&P 500:
+- The S&P 500 Index, or Standard & Poor's 500 Index, is a market-capitalization-weighted index of 500 leading publicly traded companies in the U.S. It is not an exact list of the top 500 U.S. companies by market cap because there are other criteria that the index includes. Still, the S&P 500 index is regarded as one of the best gauges of prominent American equities' performance and the stock market overall.
 
 ### Description of the source of data:
 - Daily starting and ending price of the S&P 500 from 2019.

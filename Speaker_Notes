@@ -209,6 +209,13 @@ Individual Stocks vs Individual Stock Sector
 Use the same data set at a different time (i.e. 2010 - 2015)
 Random Forest Classifier Algorithm
 
+Since decision trees where not necessary in our project due to time consuming and the small size data set, Investing time on the creation of a Random forest Algorithms for large dataset might be beneficial on:
+- The handle of thousands of input variables without variable deletion.
+- Run efficiently on large datasets
+- Can rank the importance of input variables in a natural way
+- Are robust to aoutliers and nonlinear data
+- Are robust against overfitting as all of those weak learners are trained on different pieces of data
+
 Next Time
 Anything we would have done differently?
 

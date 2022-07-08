@@ -31,7 +31,7 @@ Question : How accurately can we predict stock prices based on our created machi
 Question: Is there a relationship between historical trends and future stock performance?
 
 ### Communication Protocls
-- Our group outlined some standard communication protocols. For any infromation relvant to the whole group, we deliberate through our group slack channel. If there is smiething specific between two members, then the members reach out to each other through slcak via direct message.
+- Our group outlined some standard communication protocols. For any information relevant to the whole group, we deliberate through our group slack channel. If there is something specific between two members, then the members reach out to each other through slack via direct message.
 
 ### Outline
 - Introduction to our topic

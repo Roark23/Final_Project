@@ -52,7 +52,7 @@ Question: Is there a relationship between historical trends and future stock per
 
 
 ### Database Rubric Questions
-It's easy to view where each of these components in more depth as they are highlighted in our code located in the [!Database_Management](/Database_Management/) folder
+It's easy to view where each of these components in more depth as they are highlighted in our code located in the ![Database_Management](/Database_Management/) folder
 
 - Database stores static data for use during the project
 Database stores static data that is taken at the end of the trading day, as opposed to streaming live updated data.
@@ -67,7 +67,7 @@ There are 11 tables total in the Database, that contain daily stock data between
 Each stock table is joined to a Sector table for output into the model.  Each of these joined tables is also joined again with the S&P table.
 
 
-[!ERD](/Database_Management/KU_QuickDBD_ERD.png) 
+![ERD](/Database_Management/KU_QuickDBD_ERD.png) 
 
 
 - The ERD with relationships is provided for the 5 stock tables and related S&P table. It can also be viewed in the Database_Management folder 
@@ -75,7 +75,7 @@ Each stock table is joined to a Sector table for output into the model.  Each of
 - Includes one connection string with SQL and Machine Learning Models. We used postgreSQL for the SQL interface.
 
 ### Machine Learning Questions
-More in depth analysis regarding each of these questions can be viewed in the presentation and [!Machine_Learning](/Machine_Learning_Final/) folder and other Machine_Learning folders.
+More in depth analysis regarding each of these questions can be viewed in the presentation and ![Machine_Learning](/Machine_Learning_Final/) folder and other Machine_Learning folders.
 
 - Description of data preprocessing: The data was pulled in from Postgres sql to be read into a pandas data frame
 

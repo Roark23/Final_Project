@@ -87,7 +87,9 @@ More in depth analysis regarding each of these questions can be viewed in the pr
 
 - Description and explanation of model’s accuracy: The models performed fairly and displayed an average prediction but the models were not able to follow seasonality as we would have liked. Still, it was fairly accurate and our Prophet model stood out with the smallest error. The model does predict stocks and can say that when the S&P goes up how the corresponding sector will react.
 
-- Machine Learning Models
+
+Machine Learning Models:
+
 Linear Regression
 The purpose of viewing the linear regression model was to see how closely correlated each company’s stock or industry was related to the S&P (i.e. if the S&P increased would the company or industry also increase).
 
